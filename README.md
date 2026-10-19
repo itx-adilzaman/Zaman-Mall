@@ -1,10 +1,6 @@
 # 🛍️ Zaman Mall
 ### Shop Smarter. Live Better.
 
-<p align="center">
-  <img src="assets/logo.png" alt="Zaman Mall Logo" width="180"/>
-</p>
-
 <h1 align="center">Zaman Mall</h1>
 
 <p align="center">
