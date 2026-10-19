@@ -1152,7 +1152,7 @@ export const Home: React.FC = () => {
                 <p className="text-yellow-400 text-lg font-black uppercase tracking-widest animate-fade-in group-hover:animate-pulse group-hover:text-yellow-300 transition-colors">Since 2026</p>
                 <div className="w-12 h-px bg-gradient-to-r from-transparent via-yellow-400 to-transparent animate-gradient-flow"></div>
               </div>
-              <p className="text-gray-300 text-sm font-medium uppercase tracking-widest group-hover:text-blue-400 transition-colors">Premium Shopping Experience · New Update</p>
+              <p className="text-gray-300 text-sm font-medium uppercase tracking-widest group-hover:text-blue-400 transition-colors">Premium Shopping Experience · New Update Adil Zaman</p>
               <div className="flex items-center justify-center gap-3 mt-3">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse shadow-[0_0_10px_rgba(34,197,94,0.8)]"></div>
                 <span className="text-sm text-green-400 font-bold uppercase tracking-wider group-hover:animate-gradient-flow">Active Now</span>
