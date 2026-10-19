@@ -1,0 +1,22 @@
+# Netlify Configuration - Zaman Sons Super Mall Admin Panel
+
+[build]
+  functions = "netlify/functions"
+  publish = "dist"
+
+
+# Route /api/expo-push to our serverless function (handles CORS for POST)
+[[redirects]]
+  from = "/api/expo-push"
+  to = "/.netlify/functions/expo-push"
+  status = 200
+  force = true
+
+[functions]
+  node_bundler = "esbuild"
+
+# Fallback for Single Page Application routing (Vite / React Router)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

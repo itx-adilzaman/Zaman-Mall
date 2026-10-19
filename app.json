@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "1eec7f21-f541-4b7a-b0f6-5c06beafc04e"
+      }
+    },
+    "android": {
+      "package": "com.adilzaman786.zamansonssupermall"
+    }
+  }
+}

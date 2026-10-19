@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "513771235235",
+    "firebase_url": "https://studio-9993415521-102da-default-rtdb.firebaseio.com",
+    "project_id": "studio-9993415521-102da",
+    "storage_bucket": "studio-9993415521-102da.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513771235235:android:9dd3b61d6ac130656d1c16",
+        "android_client_info": {
+          "package_name": "com.zamansons.mall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2priUGy7_bl-lERiHwlUGZG8fuuzF6RA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

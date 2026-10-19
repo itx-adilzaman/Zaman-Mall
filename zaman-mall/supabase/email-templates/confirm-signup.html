@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ur" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Email Confirm — Zaman Mall</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', -apple-system, sans-serif; background-color: #0a0a0a; color: #fff; -webkit-font-smoothing: antialiased; }
+    .wrapper { max-width: 600px; margin: 0 auto; padding: 40px 20px; }
+    .header {
+      text-align: center; padding: 48px 40px 40px;
+      background: linear-gradient(135deg, #0f1f0f 0%, #0a0a0a 50%, #0d1a0d 100%);
+      border-radius: 24px 24px 0 0;
+      border: 1px solid #1a2e1a; border-bottom: none;
+      position: relative; overflow: hidden;
+    }
+    .header::before { content: ''; position: absolute; top: -80px; right: -80px; width: 250px; height: 250px; background: radial-gradient(circle, rgba(29,185,84,0.12) 0%, transparent 70%); border-radius: 50%; }
+    .logo-ring { width: 88px; height: 88px; border-radius: 50%; border: 2px solid rgba(29,185,84,0.4); padding: 4px; background: rgba(29,185,84,0.06); display: inline-flex; align-items: center; justify-content: center; margin-bottom: 20px; }
+    .logo-ring img { width: 76px; height: 76px; border-radius: 50%; object-fit: cover; }
+    .brand-name { font-size: 28px; font-weight: 900; letter-spacing: -0.5px; color: #fff; margin-bottom: 4px; }
+    .brand-name span { color: #1DB954; }
+    .brand-tagline { font-size: 11px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; color: rgba(255,255,255,0.35); }
+    .card { background: #111; border: 1px solid #1e1e1e; border-top: none; padding: 48px 40px; }
+    .icon-circle { width: 64px; height: 64px; border-radius: 50%; background: rgba(29,185,84,0.1); border: 1px solid rgba(29,185,84,0.2); display: flex; align-items: center; justify-content: center; margin: 0 auto 24px; font-size: 28px; }
+    .greeting { font-size: 22px; font-weight: 800; color: #fff; text-align: center; margin-bottom: 12px; }
+    .subtext { font-size: 15px; color: rgba(255,255,255,0.55); text-align: center; line-height: 1.7; margin-bottom: 36px; }
+    .btn-wrap { text-align: center; margin-bottom: 36px; }
+    .btn { display: inline-block; padding: 16px 48px; background: linear-gradient(135deg, #1DB954 0%, #14a34a 100%); color: #000 !important; text-decoration: none; font-size: 15px; font-weight: 800; border-radius: 14px; box-shadow: 0 4px 24px rgba(29,185,84,0.35); }
+    .divider { height: 1px; background: linear-gradient(to right, transparent, #2a2a2a, transparent); margin: 32px 0; }
+    .features-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 32px; }
+    .feature-item { background: rgba(255,255,255,0.03); border: 1px solid #222; border-radius: 12px; padding: 16px; text-align: center; }
+    .feature-icon { font-size: 24px; margin-bottom: 8px; }
+    .feature-title { font-size: 13px; font-weight: 700; color: rgba(255,255,255,0.8); margin-bottom: 4px; }
+    .feature-desc { font-size: 11px; color: rgba(255,255,255,0.35); line-height: 1.5; }
+    .info-box { background: rgba(255,255,255,0.03); border: 1px solid #2a2a2a; border-radius: 14px; padding: 20px 24px; margin-bottom: 28px; }
+    .info-box p { font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.7; }
+    .info-box strong { color: rgba(255,255,255,0.7); }
+    .link-box { background: #0d0d0d; border: 1px solid #252525; border-radius: 10px; padding: 14px 18px; word-break: break-all; margin-bottom: 28px; }
+    .link-box p { font-size: 11px; color: rgba(255,255,255,0.3); margin-bottom: 6px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+    .link-box a { font-size: 12px; color: #1DB954; text-decoration: none; }
+    .footer { background: #0d0d0d; border: 1px solid #1a1a1a; border-top: none; border-radius: 0 0 24px 24px; padding: 32px 40px; text-align: center; }
+    .footer-links { margin-bottom: 16px; }
+    .footer-links a { color: rgba(255,255,255,0.3); text-decoration: none; font-size: 12px; font-weight: 600; margin: 0 12px; }
+    .footer-copy { font-size: 11px; color: rgba(255,255,255,0.2); line-height: 1.6; }
+    .footer-copy span { color: #1DB954; }
+    @media (max-width: 480px) {
+      .header, .card, .footer { padding-left: 24px; padding-right: 24px; }
+      .features-grid { grid-template-columns: 1fr; }
+      .btn { padding: 14px 32px; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo-ring">
+      <img src="https://snbjqpuahjmigpftdwyo.supabase.co/storage/v1/object/public/assets/zaman-logo.png" alt="Zaman Mall" onerror="this.style.display='none'"/>
+    </div>
+    <div class="brand-name">Zaman <span>Mall</span></div>
+    <div class="brand-tagline">Premium Shopping Experience</div>
+  </div>
+
+  <!-- CARD -->
+  <div class="card">
+
+    <div class="icon-circle">🎉</div>
+
+    <h1 class="greeting">Zaman Mall mein Khush Amdeed!</h1>
+
+    <p class="subtext">
+      Assalam-o-Alaikum! Aapka Zaman Mall par account ban gaya.<br/>
+      Neeche button dabayein aur apna email verify karein.
+    </p>
+
+    <div class="btn-wrap">
+      <a href="{{ .ConfirmationURL }}" class="btn">
+        ✅ &nbsp; Email Verify Karein
+      </a>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Features Grid -->
+    <div class="features-grid">
+      <div class="feature-item">
+        <div class="feature-icon">🛍️</div>
+        <div class="feature-title">Hazar Products</div>
+        <div class="feature-desc">Best quality items best prices par</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🚚</div>
+        <div class="feature-title">Fast Delivery</div>
+        <div class="feature-desc">Ghar tak safe delivery guarantee</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">💳</div>
+        <div class="feature-title">Safe Payment</div>
+        <div class="feature-desc">COD aur online dono available</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🔒</div>
+        <div class="feature-title">100% Secure</div>
+        <div class="feature-desc">Aapki info bilkul safe hai</div>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <p>
+        ⏰ <strong>Ye link 24 ghante ke liye valid hai.</strong><br/>
+        Agar aapne ye account nahi banaya toh is email ko ignore karein.
+      </p>
+    </div>
+
+    <div class="link-box">
+      <p>Button kaam nahi kar raha? Ye link copy karein:</p>
+      <a href="{{ .ConfirmationURL }}">{{ .ConfirmationURL }}</a>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-links">
+      <a href="https://zamansons.com">Website</a>
+      <a href="https://zamansons.com/privacy">Privacy Policy</a>
+      <a href="https://zamansons.com/contact">Contact</a>
+    </div>
+    <p class="footer-copy">
+      © 2025 <span>Zaman Sons Super Mall</span>. All rights reserved.<br/>
+      Pakistan ka #1 Online Shopping Destination 🇵🇰<br/><br/>
+      Ye email <strong>{{ .Email }}</strong> ko bheja gaya hai.
+    </p>
+  </div>
+
+</div>
+</body>
+</html>

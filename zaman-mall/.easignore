@@ -1,0 +1,11 @@
+# EAS Build Ignore Config
+node_modules/
+.expo/
+.git/
+dist/
+android/
+ios/
+web-build/
+*.log
+*.tgz
+*.zip
