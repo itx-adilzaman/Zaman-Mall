@@ -1,307 +1,271 @@
-# 🛍️ Zaman Mall
-### Shop Smarter. Live Better.
+ 
+<!-- ========================================================= -->
+<!--                  ZAMAN MALL README                       -->
+<!-- ========================================================= -->
 
-<h1 align="center">Zaman Mall</h1>
+<div align="center">
 
-<p align="center">
-  <strong>Shop Smarter. Live Better.</strong>
-  <br/>
-  Your World of Shopping, One Click Away.
-</p>
+  
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Web%20%26%20Mobile-6366F1?style=for-the-badge" alt="Web and Mobile"/>
-  <img src="https://img.shields.io/badge/Status-Production-16A34A?style=for-the-badge" alt="Production"/>
-</p>
+  <br />
 
-<p align="center">
-  <strong>A modern e-commerce experience for web and mobile.</strong>
-  <br/>
-  Discover products, explore collections, and enjoy a seamless shopping journey with Zaman Mall.
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:080B16,45:172554,75:2563EB,100:06B6D4&height=220&section=header&text=ZAMAN%20MALL&fontSize=60&fontColor=FFFFFF&fontAlignY=38&desc=Your%20Marketplace%20Experience&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="Animated Zaman Mall Banner" />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/ZAMAN%20MALL-E--COMMERCE-111827?style=for-the-badge" alt="Zaman Mall"/>
-  <img src="https://img.shields.io/badge/STATUS-PRODUCTION-16A34A?style=for-the-badge" alt="Production status"/>
-  <img src="https://img.shields.io/badge/PLATFORMS-WEB%20%26%20MOBILE-6366F1?style=for-the-badge" alt="Web and mobile"/>
-</p>
+  <img src="https://github.com/user-attachments/assets/e1220e51-c588-4154-96ff-71005d118d7c" alt="Zaman Mall Logo" width="180" />
 
-<p align="center">
-  <a href="#-overview">Overview</a> •
-  <a href="#-features">Features</a> •
-  <a href="#-technology">Technology</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-roadmap">Roadmap</a>
-</p>
+  <br />
+
+  <a href="#about">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=650&lines=Welcome+to+Zaman+Mall;A+Modern+Shopping+Experience;App+%26+Website+Project;Innovation+Meets+Convenience" alt="Animated typing introduction" />
+  </a>
+
+  <br />
+
+  <p>
+    <strong>A modern digital marketplace built around convenience, accessibility, and a better shopping experience.</strong>
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Project-Zaman%20Mall-2563EB?style=for-the-badge&logo=shopify&logoColor=white" alt="Zaman Mall Project" />
+    <img src="https://img.shields.io/badge/Platform-Web%20%26%20App-0891B2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web and App" />
+    <img src="https://img.shields.io/badge/Status-Production-16A34A?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Production status" />
+  </p>
+
+  <p>
+    <a href="#about">About</a> •
+    <a href="#features">Features</a> •
+    <a href="#technology">Technology</a> •
+    <a href="#installation">Installation</a> •
+    <a href="#roadmap">Roadmap</a>
+  </p>
+
+</div>
 
 ---
 
-## ✨ Overview
+## <a id="about"></a> ✨ About Zaman Mall
 
-**Zaman Mall** is an e-commerce platform built around the idea of making online shopping convenient, accessible, and enjoyable across web and mobile experiences.
+**Zaman Mall** is an e-commerce project focused on bringing a convenient shopping experience to users through a website and an app.
 
-The project brings together the customer-facing shopping experience and the technical foundation required to support a modern digital storefront.
+The project aims to combine a modern digital presence with a clean user experience, intuitive navigation, and a scalable foundation for online shopping.
 
-With a focus on usability, responsive design, maintainability, and future scalability, Zaman Mall aims to provide a consistent experience across devices.
+Whether you're exploring the project, contributing to development, or learning about its architecture, this repository serves as the home for Zaman Mall.
 
-> **Our vision:** One destination. Endless possibilities. A better way to shop.
+### 🎯 Project Vision
 
-## 🎯 What We're Building
+- 🛍️ **Shopping Experience** — Make browsing and shopping convenient.
+- 📱 **Multi-Platform** — Build for web and mobile experiences.
+- 🎨 **Modern Design** — Create an attractive and consistent interface.
+- ⚡ **Performance** — Aim for fast, responsive user experiences.
+- 🔒 **Reliability** — Follow sound development and security practices.
+- 🚀 **Scalability** — Keep the project ready for future improvements.
 
-- 🛍️ A convenient online shopping experience.
-- 📱 A consistent experience across web and mobile.
-- 🎨 A modern interface with intuitive navigation.
-- ⚡ A responsive and performance-conscious application.
-- 🔒 A reliable foundation for secure e-commerce workflows.
-- 🚀 A scalable platform that can evolve with business needs.
+---
 
-## 🚀 Features
+## <a id="features"></a> 🌟 Features & Experience
 
-The following categories describe the platform's intended scope. Specific functionality depends on the implementation in each application.
+<div align="center">
 
-### 🛒 Shopping & Discovery
+| 🛒 Shopping | 🎨 User Interface |
+|:---:|:---:|
+| Marketplace-oriented experience | Modern visual design direction |
+| Product discovery experience | Clean, intuitive navigation |
 
-- Product browsing and discovery.
-- Product categories and collections.
-- Product detail views.
-- Product search and filtering, where implemented.
-- Shopping cart and quantity management, where implemented.
+| 📱 Platforms | ⚙️ Engineering |
+|:---:|:---:|
+| Website and app project | Maintainable project structure |
+| Cross-device experience as a goal | Room for future enhancements |
 
-### 👤 Customer Experience
+</div>
 
-- Responsive web interface.
-- Mobile application experience.
-- Account management and authentication, where implemented.
-- Saved products and wishlists, where implemented.
-- Customer order history, where implemented.
+> **Note:** These describe the project's goals and scope. Confirm each feature against the actual implementation before advertising it as available.
 
-### 📦 Orders & Checkout
+---
 
-- Shopping cart review.
-- Checkout and delivery details, where implemented.
-- Order creation and confirmation.
-- Order status tracking, where implemented.
-- Payment integration, where configured.
+## 🎬 A Glimpse of the Project
 
-### ⚙️ Platform & Administration
+<div align="center">
 
-- Backend services and API integration, where applicable.
-- Data persistence through the configured database.
-- Product and inventory management, where implemented.
-- Administrative workflows, where implemented.
-- Error handling and application configuration.
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F172A,100:1D4ED8&height=3&section=header" width="100%" alt="" />
 
-*Only advertise individual features as available once they have been verified in the deployed application.*
+  <h3>Designed for a modern shopping experience</h3>
 
-## 💻 Platform Support
+  Add your actual app screenshots, website previews, or product-page images below.
 
-| Platform | Description |
-|---|---|
-| Web | Browser-based shopping experience |
-| Mobile | Dedicated mobile application |
-| Backend | Application services and integrations, where configured |
-| Database | Persistent application data, according to the configured architecture |
+  <!-- Replace the placeholders with screenshots hosted in your repository. -->
 
-## 🧰 Technology
+  <!--
+  <img src="./assets/screenshots/homepage.png" width="80%" alt="Zaman Mall Homepage" />
+  <br />
+  <img src="./assets/screenshots/mobile-app.png" width="30%" alt="Zaman Mall Mobile App" />
+  -->
 
-Zaman Mall uses a multi-technology approach across its web, mobile, and supporting application components.
+  <p><em>Project screenshots will be displayed here once added.</em></p>
 
-The exact frameworks, database, hosting provider, and third-party services should be documented according to the actual source code.
+</div>
 
-| Component | Technology |
-|---|---|
-| Web application | To be documented |
-| Mobile application | To be documented |
-| Backend / API | To be documented |
-| Database | To be documented |
-| Authentication | To be documented |
-| UI / Styling | To be documented |
-| Hosting / Deployment | To be documented |
-| Version control | Git & GitHub |
+---
 
-## 🏁 Installation
+## <a id="technology"></a> 🧩 Technology Stack
 
-Use the instructions relevant to the specific application you want to run. Because the repository's framework and package structure have not yet been verified, the commands below are a general Git workflow rather than a confirmed application setup.
+Zaman Mall supports a web and app development workflow. Add the exact technologies used by your implementation to keep this section accurate.
 
-### Prerequisites
+<!--
+Example badges — uncomment ONLY the technologies your project actually uses.
 
-Install the tools required by your implementation:
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Backend-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Mobile-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+</p>
+-->
 
-- [Git](https://git-scm.com/)
-- The appropriate runtime and package manager for the web application.
-- The required mobile development SDK, if applicable.
-- Access to any required database, API, or environment configuration.
+**Technology details:** Update this section with the actual frontend, backend, database, mobile framework, build tools, and deployment platform used in the repository.
+
+---
+
+## 📂 Project Structure
+
+The exact directory structure depends on the repository. A possible organization for a multi-platform project is:
+
+```text
+zaman-mall/
+├── README.md
+├── assets/
+│   └── screenshots/
+├── web/
+│   └── ...
+├── mobile/
+│   └── ...
+└── ...
+```
+
+> This is an illustrative structure, not a verified listing of the repository's files. Adjust it to match your actual project.
+
+---
+
+## <a id="installation"></a> 🚀 Getting Started
+
+Follow these steps to work with the repository.
 
 ### 1. Clone the repository
 
-Replace the placeholders with your actual GitHub username and repository name.
+Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with your actual GitHub username and repository name.
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+cd YOUR_REPOSITORY
 ```
 
-### 2. Open the project
+### 2. Install dependencies
 
-```bash
-cd YOUR-REPOSITORY
-```
+Use the instructions and package manager for your actual technology stack.
 
-### 3. Install dependencies
-
-Follow the package manager and installation instructions defined by the relevant application directory.
-
-For example, if an application uses npm and contains a `package.json`:
+For example, if the project uses Node.js with npm:
 
 ```bash
 npm install
 ```
 
-If the project uses another package manager or a different runtime, follow its existing lockfile and project documentation instead.
+### 3. Configure environment variables
 
-### 4. Configure the environment
-
-Create the required local environment configuration using the variable names documented by the project.
-
-Example template — replace these illustrative names with the actual configuration:
-
-```env
-API_BASE_URL=
-DATABASE_URL=
-AUTH_SECRET=
-```
-
-Do not place real secrets, private keys, database passwords, or production credentials in source control.
-
-### 5. Run the application
-
-Use the development or launch scripts defined by the relevant application. For an npm-based project, inspect `package.json` to identify the available commands before running them.
-
-## 🏗️ Architecture
-
-Zaman Mall may be organized into independently maintained application components, depending on the actual repository structure.
-
-```text
-zaman-mall/
-├── web/              # Web application, if separated
-├── mobile/           # Mobile application, if separated
-├── backend/          # Server-side services, if separated
-├── shared/           # Shared components, if present
-├── docs/             # Project documentation
-└── README.md         # Project overview
-```
-
-This is an illustrative example, not a representation of the repository's verified directory structure. Update it to match the actual codebase.
-
-## 📸 Screenshots & Preview
-
-Visual previews help visitors understand the product before exploring the source code.
-
-Add genuine screenshots of the deployed website and mobile application in a directory such as `docs/screenshots/`.
-
-Suggested showcase:
-
-- Homepage and navigation.
-- Product discovery and category pages.
-- Product details.
-- Cart and checkout.
-- Mobile application screens.
-- Administrative interface, if available.
-
-Example Markdown for a screenshot stored in the repository:
-
-```md
-![Zaman Mall Homepage](docs/screenshots/homepage.png)
-```
-
-Replace the path with the real image location. If the website is publicly deployed, add its actual URL here.
-
-**Live Website:** Add deployment URL when available.
-
-**Mobile App:** Add the official app listing when available.
-
-## 🗺️ Roadmap
-
-Potential areas for ongoing improvement:
-
-- [ ] Document the verified technology stack.
-- [ ] Add screenshots and official deployment links.
-- [ ] Document web and mobile setup separately.
-- [ ] Maintain automated tests and quality checks.
-- [ ] Improve accessibility and responsive behavior.
-- [ ] Review application performance and reliability.
-- [ ] Document API endpoints and environment variables.
-- [ ] Strengthen security and dependency maintenance.
-- [ ] Expand shopping and customer experience features as needed.
-
-The roadmap should reflect actual priorities and be updated as work is completed.
-
-## 🔐 Security
-
-Security matters in any application that handles customer accounts, orders, or personal information.
-
-- Keep credentials and secrets out of Git.
-- Use environment variables for sensitive configuration.
-- Validate inputs and enforce authorization on the server.
-- Protect privileged operations and administrative access.
-- Use HTTPS for production traffic.
-- Keep dependencies and supported runtimes updated.
-- Follow the security requirements of integrated payment providers.
-- Avoid exposing sensitive customer or operational data in logs.
-
-Cloudinary uploads are signed by the authenticated `cloudinary-signature` Supabase Edge Function. Before deploying it, rotate the Cloudinary API secret that was previously present in client code, then configure the new values as Supabase secrets and deploy the function:
+If your application requires environment variables, create the appropriate local environment file based on the project's configuration.
 
 ```bash
-supabase secrets set CLOUDINARY_CLOUD_NAME=your-cloud-name CLOUDINARY_API_KEY=your-api-key CLOUDINARY_API_SECRET=your-new-api-secret
-supabase functions deploy cloudinary-signature
+# Example only — use the environment variables required by your app.
+cp .env.example .env
 ```
 
-Do not commit these values. Uploads require an authenticated Supabase user.
+Never commit API keys, passwords, database credentials, or other secrets.
 
-If you discover a security vulnerability, contact the project maintainer privately rather than publishing exploitable details in a public issue.
+### 4. Run the project
+
+For an npm-based project, the available commands are defined in `package.json`.
+
+```bash
+npm run
+```
+
+Review the listed scripts and run the appropriate development or production command. The exact command depends on the repository configuration.
+
+---
+
+## 🗺️ <a id="roadmap"></a> Development Roadmap
+
+The following is a potential roadmap, not a claim that these capabilities are already implemented.
+
+- [ ] Document the complete technology stack.
+- [ ] Add real application screenshots and previews.
+- [ ] Document setup and deployment requirements.
+- [ ] Verify web and mobile platform compatibility.
+- [ ] Document implemented shopping and checkout workflows.
+- [ ] Add automated tests and quality checks.
+- [ ] Improve accessibility and performance.
+- [ ] Publish user and developer documentation.
+
+---
+
+## 🔐 Security & Best Practices
+
+- Keep private credentials out of source control.
+- Use environment variables for secrets and configuration.
+- Validate user input wherever applicable.
+- Apply appropriate authentication and authorization controls.
+- Keep dependencies updated and review security advisories.
+- Report vulnerabilities privately to the repository maintainer.
+
+---
 
 ## 🤝 Contributing
 
-Contributions, improvements, and constructive feedback are welcome, subject to the project's access and contribution policy.
+Contributions are welcome when the repository is open to them.
 
-1. Fork the repository or create a working branch.
-2. Make a focused change.
-3. Test the affected functionality.
-4. Review your changes before committing.
-5. Submit a pull request with a clear description.
-
-Example Git workflow:
+1. Fork the repository.
+2. Create a feature branch.
+3. Make your changes and test them.
+4. Commit your changes with a descriptive message.
+5. Open a pull request describing the changes.
 
 ```bash
 git checkout -b feature/your-feature
 git add .
-git commit -m "feat: describe your change"
+git commit -m "feat: describe your changes"
 git push origin feature/your-feature
 ```
 
-Use the conventions already established by the project, and do not commit secrets, generated build artifacts, or unrelated changes.
-
-## 📄 License
-
-The license has not been specified in this document.
-
-Add the appropriate `LICENSE` file and update this section to reflect the actual licensing terms before granting others permission to reuse or redistribute the code.
-
-## 👨‍💻 Project Maintainer
-
-**Adil Zaman**
-
-Project: **Zaman Mall**
-
-- GitHub Profile: Replace with your actual profile URL.
-- Repository: Replace with your actual repository URL.
-- Support: Use the repository's Issues section when available.
+Please follow the repository's existing conventions and contribution requirements.
 
 ---
 
-<p align="center">
-  <strong>🛍️ Zaman Mall</strong>
-  <br/>
-  Shop Smarter. Live Better.
-  <br/><br/>
-  <sub>Built with a vision for a better digital shopping experience.</sub>
-</p>
+## 📜 License
+
+A license has not been specified in this README.
+
+Add the appropriate license to the repository before granting permissions for redistribution or reuse. Until then, do not assume the project is open-source.
+
+---
+
+## <a id="contact"></a> 📬 Connect & Explore
+
+<div align="center">
+
+  <h3> Zaman Mall </h3>
+
+  <p>Building a better digital shopping experience.</p>
+
+  <a href="https://github.com">
+    <img src="https://img.shields.io/badge/GitHub-Explore%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+
+  <!-- Add your actual website and social links here. -->
+
+  <br /><br />
+  <img src="https://github.com/user-attachments/assets/e1220e51-c588-4154-96ff-71005d118d7c" alt="Zaman Mall Logo" width="180" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,45:2563EB,100:080B16&height=120&section=footer&animation=fadeIn" width="100%" alt="Animated footer banner" />
+
+  <p><strong>© Zaman Mall. All rights reserved.</strong></p>
+
+  <sub>Designed with care • Built for a modern digital experience</sub>
+
+</div>
