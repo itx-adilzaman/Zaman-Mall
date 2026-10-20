@@ -248,6 +248,15 @@ Security matters in any application that handles customer accounts, orders, or p
 - Follow the security requirements of integrated payment providers.
 - Avoid exposing sensitive customer or operational data in logs.
 
+Cloudinary uploads are signed by the authenticated `cloudinary-signature` Supabase Edge Function. Before deploying it, rotate the Cloudinary API secret that was previously present in client code, then configure the new values as Supabase secrets and deploy the function:
+
+```bash
+supabase secrets set CLOUDINARY_CLOUD_NAME=your-cloud-name CLOUDINARY_API_KEY=your-api-key CLOUDINARY_API_SECRET=your-new-api-secret
+supabase functions deploy cloudinary-signature
+```
+
+Do not commit these values. Uploads require an authenticated Supabase user.
+
 If you discover a security vulnerability, contact the project maintainer privately rather than publishing exploitable details in a public issue.
 
 ## 🤝 Contributing

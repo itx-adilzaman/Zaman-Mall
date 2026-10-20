@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Zaman Mall Admin",
+    "slug": "zaman-mall-admin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/zaman-admin-logo.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/zaman-admin-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#010409"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zamanmall.admin"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/zaman-admin-logo.png",
+        "backgroundColor": "#010409"
+      },
+      "package": "com.zamanmall.admin",
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/zaman-admin-logo.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Zaman Mall Admin to access your photos.",
+          "cameraPermission": "Allow Zaman Mall Admin to access your camera."
+        }
+      ],
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "dede97a2-a65a-4398-83ff-93f30189a52b"
+      }
+    }
+  }
+}
