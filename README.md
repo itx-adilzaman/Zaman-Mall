@@ -262,6 +262,7 @@ Add the appropriate license to the repository before granting permissions for re
 
   <br /><br />
   <img src="https://github.com/user-attachments/assets/e1220e51-c588-4154-96ff-71005d118d7c" alt="Zaman Mall Logo" width="180" />
+[![Get it on Orion Store](https://raw.githubusercontent.com/RookieEnough/Orion-Store/refs/heads/main/assets/orion-badge.png)](https://rookieenough.github.io/Orion-Data/redirect.html?id=zaman-mall)
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,45:2563EB,100:080B16&height=120&section=footer&animation=fadeIn" width="100%" alt="Animated footer banner" />
 
   <p><strong>© Zaman Mall. All rights reserved.</strong></p>
